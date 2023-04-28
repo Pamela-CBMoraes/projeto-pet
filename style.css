@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.collapse, .navbar-collapse, .navbar-toggler {
+    justify-content: flex-end; 
+    
+}
+
+.cabecalho {
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+    background-image: url(imagens/pexels-aditya-sanjay-2579504.jpg);
+    /* filter: brightness(70%); */
+    background-size: cover;
+    background-position: center center; 
+    /* background-attachment: fixed;  */    
+}
+
+.navbar-brand, .nav-link  {
+    
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.primeira-parte{    
+    align-items: center;
+    margin: auto;
+    height: 700px;
+    /* width: 1000px; */
+    color:white;
+    background-color: rgba(240, 248, 255, 0);
+}
+.segunda-parte{
+    margin-top: 65px;
+}
+
+.terceira-parte {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    background-color: rgb(141, 141, 102);
+    padding-top: 65px;
+    padding-bottom: 65px;
+    /* margin-left: -12px;
+    margin-right: -12px; */
+}
+
+.parag-um{
+    font-weight: 700;
+    font-size: bold;
+}
+
+.imagem-dois{
+    width: 500px;
+}
+
+
+.card-img-top{
+    width: 248px;    
+}
+
+
+
+.card-deck{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    max-width: 250px;
+    width: 100%;
+}
+
+.quarta-parte {
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img-quarta-parte {
+  width: 50px;
+  height: 50px;
+}
+
+.img-quinta-parte {
+  width: 215px;
+
+}
+.quinta-parte{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 171);
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.card-quinta-parte{
+  border: 0px;
+
+}
